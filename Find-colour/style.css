@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.color-box {
+    /* Set the background color */
+  background-color: #3498db; /* You can use any color code or name */
+
+  /* Set padding to create spacing inside the box */
+  padding: 10px;
+
+  /* Set the border properties */
+  border: 3px solid #000000; /* Border width and color */
+  margin: 0 auto;
+  text-align : right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Set the height as needed */
+  width: 50px;
+}
+
+#colorDisplay {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#message {
+    font-size: 18px;
+}
+
+#score {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#resetButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#resetButton:hover {
+    background-color: #0056b3;
+}
